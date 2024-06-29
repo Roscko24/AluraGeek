@@ -1,0 +1,68 @@
+{
+  "carros": [
+    {
+      "nombre": "Mustang",
+      "modelo": "2012",
+      "precio": "$120,000",
+      "imagen": "https://i.pinimg.com/736x/d1/78/a9/d178a97b44d0dfd56a8d3b171f409507.jpg",
+      "borrar": "./imagenes/borrar.png",
+      "id": "1"
+    },
+    {
+      "nombre": "Camaro",
+      "modelo": "2015",
+      "precio": "$180,000",
+      "imagen": "https://i.pinimg.com/originals/38/3d/3a/383d3a378330ff55a8c0a6de9e73974c.jpg",
+      "borrar": "./imagenes/borrar.png",
+      "id": "2"
+    },
+    {
+      "nombre": "Charger",
+      "modelo": "2014",
+      "precio": "$150,000",
+      "imagen": "https://i.pinimg.com/736x/bc/c6/2c/bcc62c61839588772dacd3c7e29060a3.jpg",
+      "borrar": "./imagenes/borrar.png",
+      "id": "3"
+    },
+    {
+      "nombre": "Golf GTI",
+      "modelo": "2016",
+      "precio": "$165,000",
+      "imagen": "https://i.pinimg.com/736x/da/66/8d/da668d195960042b5f5356339b34af86.jpg",
+      "borrar": "./imagenes/borrar.png",
+      "id": "4"
+    },
+    {
+      "id": "1053",
+      "nombre": "Corvette",
+      "modelo": "2013",
+      "precio": "$220,000",
+      "imagen": "https://i.pinimg.com/736x/cd/82/bb/cd82bbb064ea39378df00e7f581fbf99.jpg",
+      "borrar": "./imagenes/borrar.png"
+    },
+    {
+      "id": "b80e",
+      "nombre": "Impala",
+      "modelo": "1697",
+      "precio": "$300,000",
+      "imagen": "https://i.pinimg.com/564x/3c/05/c4/3c05c4bf30dbb85e2d4c66f6d981d65f.jpg",
+      "borrar": "./imagenes/borrar.png"
+    },
+    {
+      "id": "1865",
+      "nombre": "Maverick",
+      "modelo": "1967",
+      "precio": "$250,000",
+      "imagen": "https://i.pinimg.com/originals/14/f5/ce/14f5ce2c3d79e23a36b3cc0b40b43155.jpg",
+      "borrar": "./imagenes/borrar.png"
+    },
+    {
+      "id": "bf71",
+      "nombre": "350 Z",
+      "modelo": "2018",
+      "precio": "$350,000",
+      "imagen": "https://i.pinimg.com/originals/bf/71/46/bf714605212fd141a34d2b168c919562.jpg",
+      "borrar": "./imagenes/borrar.png"
+    }
+  ]
+}

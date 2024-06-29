@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>challenge AluraGeek</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./imagenes/Logopng.png" alt="logo">
+        </div>
+    </header>
+    <main>
+        <div class="contenedorMain">
+            <section class="seccion1">
+                <div class="productos">
+                    <div class="tituloProductos">
+                        <h1>Automóviles:</h1>
+                    </div>
+                    <div class="contenedorProductos">
+                        <ul class="carrosContendor" alt="carros" data-lista></ul>
+                    </div>
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="agregarProducto">
+                    <form class="agregarCarro" data-formulario>
+                        <h1 class="formulario__titulo">Agregar Automóvil</h1>
+                        <div class="formularioCampo">
+                            <label class="etiqueta textoDesc2" for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" class="inputbox" required placeholder="Automóvil"
+                                id='nombre' data-nombre />
+                        </div>
+                        <div class="formularioCampo">
+                            <label class="etiqueta textoDesc2" for="modelo">Modelo:</label>
+                            <input type="text" name="modelo" class="inputbox" required placeholder="Año" id='modelo'
+                                data-modelo />
+                        </div>
+                        <div class="formularioCampo">
+                            <label class="etiqueta textoDesc2" for="precio">Precio:</label>
+                            <input type="text" name="precio" class="inputbox" required placeholder="Precio" id='precio'
+                                data-precio />
+                        </div>
+                        <div class="formularioCampo">
+                            <label class="etiqueta textoDesc2" for="imagen">Imagen:</label>
+                            <input type="text" name="imagen" class="inputbox" required placeholder="Imagen" id='imagen'
+                                data-imagen />
+                        </div>
+                        <input class="formularioBoton" type="submit" />
+                        <button>Limpiar</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="logo">
+            <img src="./imagenes/Logopng.png" alt="logo">
+        </div>
+        <div class="desarrollador">
+            <h2>Desarrollado por Roberto Hiemer</h2>
+        </div>
+            <div class="desarrollo">
+            <p>Alura Latam 2024</p>
+        </div>
+    </footer>
+    <script src="./js/mostrarAuto.js" type="module"></script>
+    <script src="../js/crearAuto.js" type="module"></script>
+    <script src="../js/borrarAuto.js" type="module"></script>
+</body>
+
+</html>
